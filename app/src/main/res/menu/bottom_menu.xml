@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemRestaurant"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        android:title="Restaurant"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemNearby"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Nearby"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemTutorial"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="Tutorial"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itemInfo"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Info"
+        app:showAsAction="always" />
+</menu>
